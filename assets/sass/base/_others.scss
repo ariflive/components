@@ -1,0 +1,46 @@
+
+.layer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 1.5rem 0;
+	padding: 2rem 0;
+	background-color: $bg;
+	&:first-child {
+		margin-top: 0;
+	}
+	h1 {
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		font-size: 3rem;
+		font-weight: $light;
+		text-align: center;
+		color: $secondary;
+	}
+	h3 {
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		flex-direction: column;
+		margin: 0.75rem 0;
+		font-size: 1.5rem;
+		font-weight: $lighter;
+		text-align: center;
+		color: $secondary;
+	}
+	h6 {
+		@include corners;
+		display: inline-flex;
+		justify-content: center;
+		margin: 0 auto;
+		padding: 0.5rem 0.75rem;
+		font-size: 0.75rem;
+		font-weight: $light;
+		text-transform: uppercase;
+		text-align: center;
+		color: $secondary-70;
+		background-color: $white;
+		border: 1px solid $secondary-30
+	}
+}

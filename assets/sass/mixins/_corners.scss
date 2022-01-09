@@ -1,0 +1,39 @@
+@mixin circles {
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 50%;
+}
+
+@mixin corners-lg {
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 2rem;
+}
+
+@mixin corners-sm {
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+@mixin corners {
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 0.45rem;
+}
+
+@mixin corners-top {
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 0;
+  border-top-left-radius: 0.45rem;
+  border-top-right-radius: 0.45rem;
+}
+
+@mixin corners-bottom {
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 0;
+  border-bottom-left-radius: 0.45rem;
+  border-bottom-right-radius: 0.45rem;
+}

@@ -1,0 +1,10 @@
+@mixin gradients {
+  position: relative;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  );
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}

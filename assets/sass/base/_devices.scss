@@ -1,0 +1,15 @@
+.app-only {
+  display: none;
+}
+.mobile-only {
+  display: none;
+	@media (max-width: $breakpoint-tablet) {
+		display: block;
+	}
+}
+.desktop-only {
+	height: 100%;
+	@media (max-width: $breakpoint-tablet) {
+		display: none;
+	}
+}

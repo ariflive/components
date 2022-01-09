@@ -1,0 +1,59 @@
+@mixin arrows {
+	&::after {
+		position: absolute;
+		content: '\203A';
+		right: 10px;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 1.05rem;
+		color: $secondary-lighter;
+	}
+}
+
+@mixin arrows-next {
+	&::after {
+		position: absolute;
+		content: '\2794';
+		right: 10px;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 0.75rem;
+		color: $secondary-lighter;
+	}
+}
+
+@mixin arrows-back {
+	&::after {
+		position: absolute;
+		content: '\2794';
+		right: 10px;
+		top: 50%;
+    transform: translate(-50%, -50%) rotate(180deg);
+		font-size: 0.75rem;
+		color: $secondary-lighter;
+	}
+}
+
+@mixin arrows-down {
+	&::after {
+		position: absolute;
+		content: '\2794';
+		right: 10px;
+		top: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+		font-size: 0.75rem;
+		color: $secondary-lighter;
+	}
+}
+
+@mixin arrows-up {
+	&::after {
+		position: absolute;
+		content: '\2794';
+		right: 10px;
+		top: 50%;
+    transform: translate(-50%, -50%) rotate(270deg);
+		font-size: 0.75rem;
+		color: $secondary-lighter;
+	}
+}

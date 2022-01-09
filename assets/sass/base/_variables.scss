@@ -1,0 +1,40 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap');
+
+$font: Roboto, sans-serif;
+$font-arabic: Tajawal, Tahoma, sans-serif;
+$transition: all 0.3s ease;
+
+$lighter: 300;
+$light: 400;
+$normal: 500;
+$bold: 700;
+$bolder: 900;
+
+$lighter-arabic: 300;
+$light-arabic: 400;
+$normal-arabic: 500;
+$bold-arabic: 700;
+$bolder-arabic: 800;
+
+$breakpoint-desktop-lg: 1440px;
+$breakpoint-desktop: 1280px;
+$breakpoint-tablet-lg: 1024px;
+$breakpoint-tablet: 768px;
+$breakpoint-mobile: 640px;
+$breakpoint-mobile-sm: 480px;
+
+$maxWidth: 1440px;
+
+$corner-sm: 0.35rem;
+$corner: 0.65rem;
+$corner-lg: 6rem;
+
+$zindex-loader: 110;
+$zindex-loader-backdrop: 100;
+$zindex-modal-mobile: 60;
+$zindex-topbar: 50;
+$zindex-backdrop: 30;
+$zindex-shimmer: 25;
+$zindex-slider-arrow: 20;
+$zindex-tag: 10;

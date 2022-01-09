@@ -1,0 +1,23 @@
+@mixin scrollbars {
+  overflow-x: hidden;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  cursor: pointer;
+  &::-webkit-scrollbar {
+    outline: none;
+    border: none;
+    width: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    outline: none;
+    border: none;
+    background-color: $secondary-bg;
+  }
+  &::-webkit-scrollbar-thumb {
+    outline: none;
+    border: none;
+    background-color: $secondary-10;
+    border-radius: 4rem;
+  }
+}

@@ -1,0 +1,47 @@
+$white: #fff;
+$black: #000;
+$bg: #F6F6F6;
+$borders: #EAEAEC;
+
+$primary: #FF8C00;
+$secondary: #343F56;
+
+$green: #76b852;
+$bg-green: mix($white, $green, 90%);
+$border-green: mix($white, $green, 65%);
+
+$red: #f65a5b;
+$bg-red: mix($white, $red, 90%);
+$border-red: mix($white, $red, 65%);
+
+$primary-light: mix($white, $primary, 25%);
+$primary-lighter: mix($white, $primary, 50%);
+$primary-bg: #FBF8F0;
+$primary-dark: mix($black, $primary, 25%);
+$primary-darker: mix($black, $primary, 50%);
+
+$secondary-light: mix($white, $secondary, 30%);
+$secondary-lighter: mix($white, $secondary, 60%);
+$secondary-bg: mix($white, $secondary, 90%);
+$secondary-dark: mix($black, $secondary, 20%);
+$secondary-darker: mix($black, $secondary, 40%);
+
+$primary-10: mix($white, $primary, 90%);
+$primary-20: mix($white, $primary, 80%);
+$primary-30: mix($white, $primary, 70%);
+$primary-40: mix($white, $primary, 60%);
+$primary-50: mix($white, $primary, 50%);
+$primary-60: mix($white, $primary, 40%);
+$primary-70: mix($white, $primary, 30%);
+$primary-80: mix($white, $primary, 20%);
+$primary-90: mix($white, $primary, 10%);
+
+$secondary-10: mix($white, $secondary, 90%);
+$secondary-20: mix($white, $secondary, 80%);
+$secondary-30: mix($white, $secondary, 70%);
+$secondary-40: mix($white, $secondary, 60%);
+$secondary-50: mix($white, $secondary, 50%);
+$secondary-60: mix($white, $secondary, 40%);
+$secondary-70: mix($white, $secondary, 30%);
+$secondary-80: mix($white, $secondary, 20%);
+$secondary-90: mix($white, $secondary, 10%);
